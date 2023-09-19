@@ -1,0 +1,8 @@
+{
+    "C_Cpp.errorSquiggles": "disabled",
+    "files.associations": {
+        "SimPLeIntersT.C": "cpp",
+        "DeMoHJH.C": "cpp",
+        "HiHeLLO.C": "cpp"
+    }
+}

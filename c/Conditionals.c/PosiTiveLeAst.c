@@ -13,12 +13,12 @@ int main (){
     if(x<=y && x<=z)
     printf("The number is least %d ",x);
 
-    if(y<=x && y<=z)
+    else if(y<=x && y<=z)
     printf("Thhe number is least %d ",y);
 
 
-    if(z<=x && z<=y)
-    printf("Thhe number is least %d",z);
+    else if(z<=x && z<=y)
+    printf("The least number is   %d",z);
 
     return 0;
 

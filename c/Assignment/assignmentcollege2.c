@@ -3,7 +3,7 @@ int main (){
 
     
 int m,i,sum=0;
-    printf("Give the number   :\n");
+    printf("Give the number   :");
     scanf("%d",&m);
  
     for(int i=m;i>0;i=i/10){

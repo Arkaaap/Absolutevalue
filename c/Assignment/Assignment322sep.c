@@ -16,12 +16,12 @@
 //factorial of any number ;
 #include <stdio.h>
 int main (){
-    int i,factorial=4,n;
+    int i,factorial,n;
     printf("Enter the Number :");
     scanf("%d",&n);
     for (int i=1;i<=n;i++){
         factorial*=i;}
-        printf("The factorial number of following integer is %d",factorial);
+        printf("The factorial number of following integer is %d",n,factorial);
     
     return 0;
 }

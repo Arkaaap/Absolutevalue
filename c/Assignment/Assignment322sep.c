@@ -13,15 +13,15 @@
 
 
 
-//factorial of any number ;
+//factorial of any number ;//fac of a number let's say the num is '5' 5*4*3*2*1=120 120 is factorial of '5'
 #include <stdio.h>
 int main (){
-    int i,factorial,n;
+    int i,factorial=1,n;
     printf("Enter the Number :");
-    scanf("%d",&n);
-    for (int i=1;i<=n;i++){
+    scanf("%d",&n);{
+    for (int i=1;i<=n;i++)
         factorial*=i;}
-        printf("The factorial number of following integer is %d",n,factorial);
+        printf("The factorial number of following integer %d is %d\n",n,factorial);
     
     return 0;
 }

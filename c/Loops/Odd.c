@@ -1,18 +1,20 @@
-/*#include <stdio.h>
-int main(){
+// #include <stdio.h>
+// int main(){
+//     int i;
   
-    for (int i=1;i<=1000;i=i+1){
+//     for (int i=1;i<=1000;i=i+1){
        
-            printf("%d",i);
+//             printf("%d",i);
         
-        if (2%i!=0) printf ("%d ",i);
+//         if (2%i!=0) printf ("%d ",i);
 
-    }
-    return 0;
+//     }
+//     return 0;
+    
 
 
 
-}/**/
+// }
 
 
 

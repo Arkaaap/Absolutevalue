@@ -10,12 +10,12 @@ int main (){
 int factorial(n){
     int i,nf,a=1,b=0,c=1;
     for (i=1;i<=nf;i++){
-        {a=b;
+        a=b;
         b=a;
         c=(a+b);
-        }
-        return c;
+      
     }
+    return c;
 }
 
 //It's not working though as mam has told us febonacci printing in recursion will not fit

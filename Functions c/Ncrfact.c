@@ -6,6 +6,14 @@ int ncr(n){
     }
     return fact;
 }
+
+int comb (a,b){
+    int nfact=ncr(a);//n!
+    int rfact =ncr(b);//r!
+    int nrfact =ncr(a-b);//(n-r!)
+    int factorial=nfact/(rfact*nrfact);//n!/r!/(n-r!)
+    return factorial;
+}
 int main (){
     int n;
     int r;
@@ -13,12 +21,8 @@ int main (){
     scanf("%d",&n);
     printf("Enter the value of r : ");
     scanf("%d",&r);
-    int nfact=ncr(n);//n!
-    int rfact =ncr(r);//r!
-    int nrfact =ncr(n-r);//(n-r!)
-    int factorial=nfact/(rfact*nrfact);//n!/r!/(n-r!)
-   
-    printf("%d",factorial);
+    int ncr = comb(n,r);
+    printf("%d",ncr);
     return 0;
 
 }

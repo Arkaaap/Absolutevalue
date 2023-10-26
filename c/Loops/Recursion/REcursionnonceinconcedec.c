@@ -10,7 +10,7 @@
 // int n;
 // printf("Enter the number ");
 // scanf("%d",&n);
-// int decinc=decrrincc(n);
+// decrrincc(n);
 // return 0;
 // }
 
@@ -29,7 +29,7 @@
 // int n;
 // printf("Enter the number ");
 // scanf("%d",&n);
-// int decinc=decrrincc(n);
+// decrrincc(n);
 // return 0;
 // }
 
@@ -48,6 +48,6 @@ int main (){
 int n;
 printf("Enter the number ");
 scanf("%d",&n);
-int decinc=decrrincc(n);
+decrrincc(n);
 return 0;
 }

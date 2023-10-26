@@ -30,7 +30,7 @@ int febo(int n){
     return 1;
     else {
         int var1 = febo(n-1);
-        int var2= febo(n+1);
+        int var2= febo(n-2);
         int varx = var1+var2 ;
         return varx;
     }

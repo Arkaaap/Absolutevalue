@@ -4,3 +4,5 @@ void main (){
     printf("%d",a[3]);
     getch ();
 }
+
+

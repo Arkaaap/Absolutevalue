@@ -3,6 +3,7 @@
     "files.associations": {
         "SimPLeIntersT.C": "cpp",
         "DeMoHJH.C": "cpp",
-        "HiHeLLO.C": "cpp"
+        "HiHeLLO.C": "cpp",
+        "ADDMATRICES.C": "cpp"
     }
 }

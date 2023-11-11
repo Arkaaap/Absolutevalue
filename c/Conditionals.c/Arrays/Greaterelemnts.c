@@ -2,7 +2,7 @@
 #include <stdio.h>
 int main (){
     int ar  [5]={1,2,3,4,5};
-    int x=5;
+    int x=4;
     int count =0;
     for (int i=0;i<=4;i++){
         if (ar[i]>x)

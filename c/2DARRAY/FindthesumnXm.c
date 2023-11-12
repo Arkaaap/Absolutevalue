@@ -1,26 +1,31 @@
-//FIND THE SUM OF N X M WHERE THE N IS ROWS AND M IS COLUMNS 
+//FIND THE SUM OF A GIVEN MATRIX N X M 
 #include <stdio.h>
 int main (){
     int n,m;
-    printf("ENETR THE ROW'S ");
+      int sum=0;
+    printf("ENTER THE RO NO ");
     scanf ("%d",&n);
-    printf("ENETR THE col'S ");
-    scanf ("%d",&m);
-    int ar [n][m];
-    printf("ENETR THE ELEMNTS : ");
+    printf("ENTR THE COL NO ");
+    scanf("%d",&m);
+    int a [n][m];
+    for (int i=0;i<n;i++){
+        for (int j=0;j<m;j++){
+            scanf("%d",&a[i][j]);
+        }
+    }
+    printf("\n");
     printf("\n");
     for (int i=0;i<n;i++){
         for (int j=0;j<m;j++){
-            scanf("%d",&ar[i][j]);
+            printf("%d ",a [i][j]);
         }
+        printf("\n");
     }
-    int sum=0;
     for (int i=0;i<n;i++){
         for (int j=0;j<m;j++){
-            sum+=ar [i][j];
+            sum+=a [i][j];
         }
     }
-    printf("%d ",sum);
+    printf("THE SUM OF TWO MATRICES ARE %d  ",sum);
     return 0;
-    
 }

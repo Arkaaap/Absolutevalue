@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "ADDMATRICES.C": "cpp",
+        "MAXANDMINELEMNT.C": "cpp",
+        "MAXELANDIDX.C": "cpp",
+        "GREATESTROWONE.C": "cpp",
+        "TRansposeLEETCODE1.C": "cpp",
+        "TRansposeLEETCODE.C": "cpp"
+    }
+}

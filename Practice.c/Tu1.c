@@ -1,26 +1,43 @@
 #include <stdio.h>
-#include <limits.h>
 int main (){
-    int ar[5];
-    int i;
-    int x=ar[i];
-    for (int i=0;i<=4;i++){
-        scanf("%d",&ar[i]);
-    }
-    for (int i=0;i<=4;i++){
-        printf("elements %d:%d \n",i,ar[i]);
-    }
-    for (int i=0;i<=4;i++){
-        if (ar[i]==x){
-            printf(" DUPLICATE ELEMNTS :%d ",ar[i]);
+    int n;
+    printf("ENETR THE SIZE : ");
+    scanf("%d",&n);
+    int a[n][n];
+    for (int i=0;i<n;i++){
+        for (int j=0;j<n;j++){
+            scanf("%d",&a[i][j]);
         }
     }
-  
+     for (int i=0;i<n;i++){
+        for (int j=0;j<n;j++){
+            printf("%d \n",a[i][j]);
+        }
 
-
-
-    
-    
-    
-    return 0;
+        printf ("\n");
+    for (int i=0;i<n;i++){
+        for (int j=i;j<n;j++){
+            int temp= a[i][j];
+            a[i][j] = a[j][i];
+            a[j][i] = temp;
+        }
+    }
+    for (int i=0;i<n;i++){
+        int j=0,k=n-1;
+        while (j<k){
+            int temp=a[i][j];
+            a[i][j] = a[i][k];
+            a[i] [k] = temp;
+            j++;
+            k--;
+        }
+    }
+    for (int i=0;i<n;i++){
+        for (int j=0;j<n;j++){
+            printf("%d \n",a[i][j]);
+        }
+        printf("\n");
+    }
+}
+return 0;
 }

@@ -16,6 +16,6 @@ int main (){
         }
     }
   }
-  printf ("The duplicate elements are %d  ",count );
+  printf ("The duplicate elements are %d in this array  ",count );
 
 }

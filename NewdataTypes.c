@@ -26,7 +26,7 @@ struct Page{
 
 struct Book{
     Page p[10];
-    pageNo Pn;
+    pageNo *Pn;
     
 };
 
@@ -45,8 +45,8 @@ int main (int argc ,char **argv)
     {
         printf ("%d\t\n",b.p[i]);
     }
-    b.Pn = 31;
-    printf ("%d\t\n",b.Pn);
+    *b.Pn = 31;
+    printf ("%d\t\n",*b.Pn);
     
     return (0x00);
 }

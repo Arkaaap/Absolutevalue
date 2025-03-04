@@ -1,4 +1,4 @@
-/*If ‘WATER’ is written as ‘YCVGT’, then what is written as ‘HKTG’*/
+/*3.If ‘WATER’ is written as ‘YCVGT’, then what is written as ‘HKTG’*/
 
 #include <stdio.h>
 #include <stdlib.h>

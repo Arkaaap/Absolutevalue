@@ -23,4 +23,4 @@ int main (void)
     printf("%s\t",c);
     return (0x00);
 }
-/*op= KNSTR*/
+/*1.op= KNSTR*/

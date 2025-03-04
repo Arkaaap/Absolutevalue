@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <string.h>
+
+void Encode(char *c)
+{
+    for (int i =0 ;c[i]!='\0';i++)
+    {
+        if (c[i]>= 'A' && c[i]<='Z')
+        {
+            c[i] = c[i]-1;
+        }
+        if (c[i] >'Z'){
+            c[i] = c[i]-26;
+        }
+    }
+}
+
+
+int main (void)
+{
+    char c[] = "LOTUS";
+    Encode(c);
+    printf("%s\t",c);
+    return (0x00);
+}
+/*op= KNSTR*/

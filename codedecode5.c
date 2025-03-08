@@ -13,6 +13,7 @@ void endcode (char *c)
         c[i] = c[i+1];
         c[i+1] =t ;
     }
+    fprintf (stdout,"Encoding...\n");
     for (int i =0 ;c[i]!='\0';i++)
     {
         printf ("%c\t",c[i]);

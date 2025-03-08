@@ -23,6 +23,7 @@ int main ()
 {
     char c []= "WATER";
     Fun(c);
+    fprintf (stdout,"Encoding...\n");
     printf ("%s\t",c);
     return (0);
 }

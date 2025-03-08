@@ -20,6 +20,7 @@ int main (void)
 {
     char c[] = "LOTUS";
     Encode(c);
+    fprintf (stdout,"Encoding...\n");
     printf("%s\t",c);
     return (0x00);
 }

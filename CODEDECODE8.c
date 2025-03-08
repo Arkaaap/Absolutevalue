@@ -8,6 +8,7 @@
 
 void encode (char *c)
 {
+	fprintf (stdout,"Encoding...\n");
 	fprintf (stdout,"Encoded String :\n");
 	int l = strlen(c);
 	for (int i=0 ;i<=l;i++)

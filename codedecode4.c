@@ -9,6 +9,7 @@ the same code language*/
 #include <string.h>
 void encode (char *c)
 {
+  fprintf (stdout,"Encoding...\n");
     printf ("ENCODED string :\n");
     int l = strlen(c);
     int i ,j;

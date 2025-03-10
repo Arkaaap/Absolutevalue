@@ -20,6 +20,7 @@ void encode (char *c)
     
     c1[0] = temp;
     printf ("%s\t",c1);
+    free (c1);
 }
 
 

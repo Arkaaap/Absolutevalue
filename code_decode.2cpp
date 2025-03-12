@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 
 void Encode(char *c)
 {
+    fprintf (stdout,"\nEncoding...\n");
     for (int i =0 ;c[i]!='\0';i++)
     {
         if (c[i]>= 'A' && c[i]<='Z')
@@ -13,15 +15,37 @@ void Encode(char *c)
             c[i] = c[i]-26;
         }
     }
+    
+    printf ("%s",c);
+    
+}
+
+void decode (char *c)
+{
+    fprintf (stdout,"\nDecoding...\n");
+
+int l = strlen(c);
+char *c1 = (char *) malloc(l+1);
+    for (int i =0 ;i<l;i++)
+    {
+        c1[i] = c[i]+1;
+    }
+
+    printf ("%s",c1);
+    
+
 }
 
 
 int main (void)
 {
-    char c[] = "LOTUS";
+    char c[100];
+    printf ("(Please put charcters In a single string try not to put any spaces !!!)\n");
+    printf ("Enter THE STRING :\n");;
+    scanf ("%s",c);
     Encode(c);
-    fprintf (stdout,"Encoding...\n");
-    printf("%s\t",c);
+    decode (c);
+    //printf("%s\t",c);
     return (0x00);
 }
 /*1.op= KNSTR*/

@@ -1,4 +1,6 @@
-/*In a certain code language “CONSTRUCTION” is written as “EMPQVPWAVGQL”. What will be the code for “DESTRUCTION” in the same language(even indecies +2 and odd -2 )*/
+/*In a certain code language “CONSTRUCTION” is written as “EMPQVPWAVGQL”. What will be the code for “DESTRUCTION” in the same language(even indecies +2 and odd -2 )
+
+SOURCE "https://byjus.com/govt-exams/coding-decoding-questions/"*/
 
 #include <stdio.h>
 #include <string.h>

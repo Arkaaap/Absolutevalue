@@ -37,3 +37,4 @@ int main (void)
     encode(c,key);
     return (0x0);
 }
+}
